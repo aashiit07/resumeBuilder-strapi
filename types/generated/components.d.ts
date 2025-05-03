@@ -3,10 +3,12 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface EducationEducation extends Struct.ComponentSchema {
   collectionName: 'components_education_educations';
   info: {
+    description: '';
     displayName: 'Education';
     icon: 'book';
   };
   attributes: {
+    cgpa: Schema.Attribute.Decimal;
     degree: Schema.Attribute.String;
     description: Schema.Attribute.String;
     endDate: Schema.Attribute.String;
