@@ -69,6 +69,12 @@
     },
     "link2": {
       "type": "string"
+    },
+    "certificates": {
+      "displayName": "certificates",
+      "type": "component",
+      "repeatable": true,
+      "component": "certificates.certificates"
     }
   }
 }

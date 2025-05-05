@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_certificates_certificates",
+  "info": {
+    "displayName": "certificates",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "certificateName": {
+      "type": "string"
+    },
+    "issuedBy": {
+      "type": "string"
+    },
+    "issueDate": {
+      "type": "string"
+    },
+    "certificateURL": {
+      "type": "string"
+    }
+  }
+}
