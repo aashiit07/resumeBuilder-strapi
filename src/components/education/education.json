@@ -26,7 +26,7 @@
       "type": "string"
     },
     "cgpa": {
-      "type": "decimal"
+      "type": "integer"
     }
   }
 }

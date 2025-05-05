@@ -8,7 +8,7 @@ export interface EducationEducation extends Struct.ComponentSchema {
     icon: 'book';
   };
   attributes: {
-    cgpa: Schema.Attribute.Decimal;
+    cgpa: Schema.Attribute.Integer;
     degree: Schema.Attribute.String;
     description: Schema.Attribute.String;
     endDate: Schema.Attribute.String;
