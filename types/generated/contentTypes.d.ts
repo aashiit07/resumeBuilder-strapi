@@ -391,6 +391,8 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     firstName: Schema.Attribute.String;
     jobTitle: Schema.Attribute.String;
     lastName: Schema.Attribute.String;
+    link: Schema.Attribute.String;
+    link2: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
