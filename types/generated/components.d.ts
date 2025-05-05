@@ -1,5 +1,17 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface AchievementsAchievements extends Struct.ComponentSchema {
+  collectionName: 'components_achievements_achievements';
+  info: {
+    displayName: 'achievements';
+    icon: 'dashboard';
+  };
+  attributes: {
+    descachievement: Schema.Attribute.String;
+    titleachievement: Schema.Attribute.String;
+  };
+}
+
 export interface CertificatesCertificates extends Struct.ComponentSchema {
   collectionName: 'components_certificates_certificates';
   info: {
@@ -65,6 +77,7 @@ export interface SkillsSkills extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'achievements.achievements': AchievementsAchievements;
       'certificates.certificates': CertificatesCertificates;
       'education.education': EducationEducation;
       'experience.experience': ExperienceExperience;

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_achievements_achievements",
+  "info": {
+    "displayName": "achievements",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "titleachievement": {
+      "type": "string"
+    },
+    "descachievement": {
+      "type": "string"
+    }
+  }
+}

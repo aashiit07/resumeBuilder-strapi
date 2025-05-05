@@ -381,6 +381,7 @@ export interface ApiUserResumeUserResume extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
+    achievements: Schema.Attribute.Component<'achievements.achievements', true>;
     address: Schema.Attribute.String;
     certificates: Schema.Attribute.Component<'certificates.certificates', true>;
     createdAt: Schema.Attribute.DateTime;
